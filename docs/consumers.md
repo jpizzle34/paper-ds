@@ -5,7 +5,7 @@ The registry copies component source into your app. Those files stay in your app
 Start the gallery so the JSON is served:
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 The files are at `http://localhost:3000/r/button.json`. `base`, `alert`, and `badge` are there too.

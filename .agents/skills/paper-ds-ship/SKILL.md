@@ -22,7 +22,7 @@ This skill opens a proposal branch and a pull request. It does not merge, tag, o
 ## Branch and checks
 
 1. Branch from `main`: `ds/<component>/rN-<slug>`. Example: `ds/alert/r3-button-under-message`.
-2. Run `npm run lint`, `npm run typecheck`, and `npm run build` from the repo root.
+2. Run `pnpm lint`, `pnpm typecheck`, and `pnpm build` from the repo root.
 3. Commit on that branch only. Never commit to `main`.
 
 ## Pull request
