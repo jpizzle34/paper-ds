@@ -1,0 +1,141 @@
+{
+  "version": 2,
+  "skills": {
+    "migrate-radix-to-base": {
+      "source": "shadcn-ui/ui",
+      "commit": "bfa64ff4d1cb7317d2403ecb176df6826d4caffc",
+      "sourceType": "github",
+      "skillPath": "skills/migrate-radix-to-base/SKILL.md",
+      "computedHash": "7644de21e9aa533904def58c30f809ae6574c3cabc6396ab8b03dee751e8ffbe",
+      "installMode": "copy"
+    },
+    "paper-ds-canvas": {
+      "source": "jal-co/jalco-paper-skills",
+      "commit": "45241e445d52c1695b6c61d80a30eb05fae13ca1",
+      "sourceType": "github",
+      "skillPath": "skills/paper-ds-canvas/SKILL.md",
+      "computedHash": "665ed616885629cc5c7eeaa96c5473e0a8ee58a9f2622125a9e94c2ab8b5343a",
+      "installMode": "copy"
+    },
+    "paper-ds-components": {
+      "source": "jal-co/jalco-paper-skills",
+      "commit": "45241e445d52c1695b6c61d80a30eb05fae13ca1",
+      "sourceType": "github",
+      "skillPath": "skills/paper-ds-components/SKILL.md",
+      "computedHash": "8afa744a0a97d64eed043d8c4fe9049b70f47bbd6f5dd42ad073a1e31d94105e",
+      "installMode": "copy"
+    },
+    "paper-ds-iterate": {
+      "source": "jal-co/jalco-paper-skills",
+      "commit": "45241e445d52c1695b6c61d80a30eb05fae13ca1",
+      "sourceType": "github",
+      "skillPath": "skills/paper-ds-iterate/SKILL.md",
+      "computedHash": "76908fd9d6df4ad31f4746ad3c6ffe3758f2d57f970b04e0bbd39234902cb5c1",
+      "installMode": "copy"
+    },
+    "paper-ds-land": {
+      "source": "jal-co/jalco-paper-skills",
+      "commit": "45241e445d52c1695b6c61d80a30eb05fae13ca1",
+      "sourceType": "github",
+      "skillPath": "skills/paper-ds-land/SKILL.md",
+      "computedHash": "36e28f2f2a1ada5437cf93994ed6e851bc19ec1ef920421f86ba7725901df8b5",
+      "installMode": "copy"
+    },
+    "paper-ds-manage": {
+      "source": "jal-co/jalco-paper-skills",
+      "commit": "45241e445d52c1695b6c61d80a30eb05fae13ca1",
+      "sourceType": "github",
+      "skillPath": "skills/paper-ds-manage/SKILL.md",
+      "computedHash": "71db9c0bf43195f9c9072c054ecab1d5787be476068e39cd5b8b8b2b36ce9695",
+      "installMode": "copy"
+    },
+    "paper-ds-options": {
+      "source": "jal-co/jalco-paper-skills",
+      "commit": "45241e445d52c1695b6c61d80a30eb05fae13ca1",
+      "sourceType": "github",
+      "skillPath": "skills/paper-ds-options/SKILL.md",
+      "computedHash": "8ce1183ce53b47fc9f9053e3b1882252f92f7690b900061fb0dfbec10fec5825",
+      "installMode": "copy"
+    },
+    "paper-ds-options-block": {
+      "source": "jal-co/jalco-paper-skills",
+      "commit": "45241e445d52c1695b6c61d80a30eb05fae13ca1",
+      "sourceType": "github",
+      "skillPath": "skills/paper-ds-options-block/SKILL.md",
+      "computedHash": "24a04654541a0e7f67d9a2107864b9b3b2b81967c83f2bdd07dd6f4ed6720539",
+      "installMode": "copy"
+    },
+    "paper-ds-options-component": {
+      "source": "jal-co/jalco-paper-skills",
+      "commit": "45241e445d52c1695b6c61d80a30eb05fae13ca1",
+      "sourceType": "github",
+      "skillPath": "skills/paper-ds-options-component/SKILL.md",
+      "computedHash": "dd6850ac9f6e36b067c5f6bc41d43da39f32bce51bd7c24b4f26660b5280da3c",
+      "installMode": "copy"
+    },
+    "paper-ds-options-page": {
+      "source": "jal-co/jalco-paper-skills",
+      "commit": "45241e445d52c1695b6c61d80a30eb05fae13ca1",
+      "sourceType": "github",
+      "skillPath": "skills/paper-ds-options-page/SKILL.md",
+      "computedHash": "49241e70c356334ecdcc28ce595fd6668000488e5911d071d7ff2ef2305d2a8c",
+      "installMode": "copy"
+    },
+    "paper-ds-pages": {
+      "source": "jal-co/jalco-paper-skills",
+      "commit": "45241e445d52c1695b6c61d80a30eb05fae13ca1",
+      "sourceType": "github",
+      "skillPath": "skills/paper-ds-pages/SKILL.md",
+      "computedHash": "02ddcd5a2c694b288268b151cca7b53818cf97bbb2f2c21dfd3e3cc07ff65193",
+      "installMode": "copy"
+    },
+    "paper-ds-review": {
+      "source": "jal-co/jalco-paper-skills",
+      "commit": "45241e445d52c1695b6c61d80a30eb05fae13ca1",
+      "sourceType": "github",
+      "skillPath": "skills/paper-ds-review/SKILL.md",
+      "computedHash": "d7aa36d639f2304b71930d9888e9b9667cf740ba9c224e307f0754cb777a5f78",
+      "installMode": "copy"
+    },
+    "paper-ds-setup": {
+      "source": "jal-co/jalco-paper-skills",
+      "commit": "45241e445d52c1695b6c61d80a30eb05fae13ca1",
+      "sourceType": "github",
+      "skillPath": "skills/paper-ds-setup/SKILL.md",
+      "computedHash": "e83c34a1377b13f40ebcf9c4565746b27301b4dff0f0de56ac45fd35d0539e84",
+      "installMode": "copy"
+    },
+    "paper-ds-tokens": {
+      "source": "jal-co/jalco-paper-skills",
+      "commit": "45241e445d52c1695b6c61d80a30eb05fae13ca1",
+      "sourceType": "github",
+      "skillPath": "skills/paper-ds-tokens/SKILL.md",
+      "computedHash": "a62a8b163deb12ee2ddae96860e6e13a66c0af78de84ef3b6f3e43def8931934",
+      "installMode": "copy"
+    },
+    "shadcn": {
+      "source": "shadcn-ui/ui",
+      "commit": "bfa64ff4d1cb7317d2403ecb176df6826d4caffc",
+      "sourceType": "github",
+      "skillPath": "skills/shadcn/SKILL.md",
+      "computedHash": "388962d16c7a4f13aaeee0d8f128e50a87df8553d42ef7988c39c0e1c74a40e8",
+      "installMode": "copy"
+    },
+    "vercel-composition-patterns": {
+      "source": "vercel-labs/agent-skills",
+      "commit": "5a37a6329fbad3666c3207392a6a7c0110e92efb",
+      "sourceType": "github",
+      "skillPath": "skills/composition-patterns/SKILL.md",
+      "computedHash": "f711ed8b16162eaa712abbcdbbae6c926f86c57e60127735fecc3ad0dd85b3fa",
+      "installMode": "copy"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "commit": "5a37a6329fbad3666c3207392a6a7c0110e92efb",
+      "sourceType": "github",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "computedHash": "7991ed4fbecdac23f47c1a40c243e00a212a9e7f3604db93959b3ae11dffe299",
+      "installMode": "copy"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "paper-ds",
+  "homepage": "http://localhost:3000",
+  "items": [
+    {
+      "name": "base",
+      "type": "registry:base",
+      "title": "Paper DS base",
+      "description": "Pins this design system to Radix via the radix-nova style.",
+      "config": {
+        "style": "radix-nova",
+        "iconLibrary": "lucide",
+        "tailwind": {
+          "baseColor": "neutral"
+        }
+      }
+    },
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "title": "Button",
+      "description": "Radix button with the Paper DS variants.",
+      "dependencies": ["radix-ui", "class-variance-authority", "cn"],
+      "files": [
+        {
+          "path": "packages/ui/src/components/button.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "alert",
+      "type": "registry:ui",
+      "title": "Alert",
+      "description": "Radix alert with title, description, and action.",
+      "dependencies": ["class-variance-authority", "cn"],
+      "registryDependencies": ["button"],
+      "files": [
+        {
+          "path": "packages/ui/src/components/alert.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "badge",
+      "type": "registry:ui",
+      "title": "Badge",
+      "description": "Radix badge with the Paper DS variants.",
+      "dependencies": ["radix-ui", "class-variance-authority", "cn"],
+      "files": [
+        {
+          "path": "packages/ui/src/components/badge.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    }
+  ]
+}

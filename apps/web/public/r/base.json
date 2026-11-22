@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "base",
+  "title": "Paper DS base",
+  "description": "Pins this design system to Radix via the radix-nova style.",
+  "type": "registry:base",
+  "config": {
+    "style": "radix-nova",
+    "tailwind": {
+      "baseColor": "neutral"
+    },
+    "iconLibrary": "lucide"
+  }
+}

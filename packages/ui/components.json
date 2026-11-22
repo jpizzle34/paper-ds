@@ -11,11 +11,11 @@
   },
   "iconLibrary": "lucide",
   "aliases": {
-    "components": "@workspace/ui/components",
-    "utils": "@workspace/ui/lib/utils",
-    "hooks": "@workspace/ui/hooks",
-    "lib": "@workspace/ui/lib",
-    "ui": "@workspace/ui/components"
+    "components": "@paper-ds/ui/components",
+    "utils": "@paper-ds/ui/lib/utils",
+    "hooks": "@paper-ds/ui/hooks",
+    "lib": "@paper-ds/ui/lib",
+    "ui": "@paper-ds/ui/components"
   },
   "rtl": false,
   "menuColor": "default",
