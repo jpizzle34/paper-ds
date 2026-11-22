@@ -1,7 +1,10 @@
 "use client"
 
 import * as React from "react"
+import { MoonIcon, SunIcon } from "lucide-react"
 import { ThemeProvider as NextThemesProvider, useTheme } from "next-themes"
+
+import { Button } from "@paper-ds/ui/components/button"
 
 function ThemeProvider({
   children,
@@ -15,8 +18,8 @@ function ThemeProvider({
       disableTransitionOnChange
       {...props}
     >
-      <ThemeHotkey />
       {children}
+      <ThemeSwitch />
     </NextThemesProvider>
   )
 }
@@ -34,8 +37,28 @@ function isTypingTarget(target: EventTarget | null) {
   )
 }
 
-function ThemeHotkey() {
+function ThemeSwitch() {
   const { resolvedTheme, setTheme } = useTheme()
+  const [mounted, setMounted] = React.useState(false)
+  const themeRef = React.useRef<"light" | "dark">("light")
+
+  React.useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  React.useEffect(() => {
+    if (resolvedTheme === "light" || resolvedTheme === "dark") {
+      themeRef.current = resolvedTheme
+    }
+  }, [resolvedTheme])
+
+  const apply = React.useCallback(
+    (next: "light" | "dark") => {
+      themeRef.current = next
+      setTheme(next)
+    },
+    [setTheme]
+  )
 
   React.useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
@@ -55,7 +78,8 @@ function ThemeHotkey() {
         return
       }
 
-      setTheme(resolvedTheme === "dark" ? "light" : "dark")
+      event.preventDefault()
+      apply(themeRef.current === "dark" ? "light" : "dark")
     }
 
     window.addEventListener("keydown", onKeyDown)
@@ -63,9 +87,31 @@ function ThemeHotkey() {
     return () => {
       window.removeEventListener("keydown", onKeyDown)
     }
-  }, [resolvedTheme, setTheme])
+  }, [apply])
 
-  return null
+  const theme =
+    mounted && (resolvedTheme === "light" || resolvedTheme === "dark")
+      ? resolvedTheme
+      : null
+  const next = theme === "dark" ? "light" : "dark"
+
+  return (
+    <div className="fixed top-4 right-4">
+      <Button
+        variant="outline"
+        disabled={theme === null}
+        aria-label={theme === null ? "Switch theme" : `Switch to ${next} theme`}
+        onClick={() => apply(next)}
+      >
+        {theme === "dark" ? (
+          <SunIcon data-icon="inline-start" />
+        ) : (
+          <MoonIcon data-icon="inline-start" />
+        )}
+        {theme === null ? "Theme" : next === "dark" ? "Dark" : "Light"}
+      </Button>
+    </div>
+  )
 }
 
 export { ThemeProvider }
